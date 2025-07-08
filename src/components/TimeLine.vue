@@ -19,7 +19,7 @@
           :class="[
             slotProps.item.type != 'step'
               ? 'border-l-4  bg-white rounded-md shadow-sm transition-all'
-              : 'border-l-2 border-dashed',
+              : 'border-l-3 border-dashed',
           ]"
         >
           <!-- 時間 -->
@@ -36,7 +36,10 @@
           </div>
 
           <!-- 標題 -->
-          <h2 class="text-lg font-bold mt-1 text-[#212121]">
+          <h2
+            class="text-lg font-bold mt-1"
+            :class="[slotProps.item.type != 'step' ? 'text-[#212121]' : 'text-gray-500']"
+          >
             {{ slotProps.item.title }}
           </h2>
 

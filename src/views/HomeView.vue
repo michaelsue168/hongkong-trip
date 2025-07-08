@@ -39,22 +39,29 @@
       </TabList>
       <TabPanels class="bg-[transparent]">
         <TabPanel value="0">
-          <div class="flex justify-start">
+          <div class="flex flex-col justify-start">
             <TimeLine title="中環 / 上環 / 尖沙咀" :event="day1_events" />
           </div>
         </TabPanel>
         <TabPanel value="1">
-          <div class="flex justify-start">
+          <div class="flex flex-col justify-start">
             <TimeLine title="海洋公園 / 灣仔" :event="day2_events" />
+            <div class="flex flex-col items-center">
+              <p>海洋公園設施 (長按圖片下載)</p>
+              <div class="flex gap-5">
+                <Image :src="image_1" alt="Image" width="150" />
+                <Image :src="image_2" alt="Image" width="150" />
+              </div>
+            </div>
           </div>
         </TabPanel>
         <TabPanel value="2">
-          <div class="flex justify-start">
+          <div class="flex flex-col justify-start">
             <TimeLine title="赤柱 / 旺角" :event="day3_events" />
           </div>
         </TabPanel>
         <TabPanel value="3">
-          <div class="flex justify-start">
+          <div class="flex flex-col justify-start">
             <TimeLine title="尖沙咀" :event="day4_events" />
           </div>
         </TabPanel>
@@ -81,7 +88,8 @@ import day1_events from "@/assets/day1_events.json";
 import day2_events from "@/assets/day2_events.json";
 import day3_events from "@/assets/day3_events.json";
 import day4_events from "@/assets/day4_events.json";
-import imageUrl from "@/assets/day2_1.png";
+import image_1 from "@/assets/day2_1.png";
+import image_2 from "@/assets/day2_2.png";
 
 import TimeLine from "@/components/TimeLine.vue";
 </script>
