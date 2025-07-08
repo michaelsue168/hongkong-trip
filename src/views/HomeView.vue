@@ -35,7 +35,7 @@
         <Tab value="1">Day 2</Tab>
         <Tab value="2">Day 3</Tab>
         <Tab value="3">Day 4</Tab>
-        <Tab value="4">海洋公園設施</Tab>
+        <!-- <Tab value="4">海洋公園設施</Tab> -->
       </TabList>
       <TabPanels class="bg-[transparent]">
         <TabPanel value="0">
@@ -58,11 +58,11 @@
             <TimeLine title="尖沙咀" :event="day4_events" />
           </div>
         </TabPanel>
-        <TabPanel value="4">
+        <!-- <TabPanel value="4">
           <div class="flex justify-start">
             <Image :src="imageUrl" alt="Image" width="250" preview />
           </div>
-        </TabPanel>
+        </TabPanel> -->
       </TabPanels>
     </Tabs>
     <ScrollTop />
