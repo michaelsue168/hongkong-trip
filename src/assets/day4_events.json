@@ -1,0 +1,47 @@
+[
+  {
+    "time": "09:00",
+    "title": "飯店集合",
+    "subtitle": "救世軍卜維廉賓館",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  },
+  {
+    "time": "09:05",
+    "title": "紅茶冰室",
+    "subtitle": "早餐",
+    "traffic": "飯店步行 5 分鐘",
+    "recommend": "冰火菠蘿油、招牌芝士流心西多士、豬扒包、香脆奶油豬、沙嗲牛肉麵",
+    "googleMap": "https://maps.app.goo.gl/YKLxoDywvovezm4BA"
+  },
+  {
+    "time": "09:55",
+    "title": "尖沙咀購物",
+    "subtitle": "購物",
+    "traffic": "搭 41A / 35A / 81C / 87D 公車，油麻地 → 永星里 → 聖安德烈堂",
+    "note": "無印良品、美麗華廣場、The One 公仔、Bakehouse、珍妮曲奇、美麗都大廈、K11/人文藝術館、星光大道等",
+    "googleMap": "https://maps.app.goo.gl/8CVBQ9qKAgTSYYnr5"
+  },
+  {
+    "time": "13:10",
+    "title": "回飯店拿行李",
+    "subtitle": "救世軍卜維廉賓館",
+    "traffic": "搭 87D / 41A / 9 / 35A 公車 → 尖東鐵路站 → 彌敦道 → 飯店，步行約 3 分鐘",
+    "note": "拿行李，準備前往機場",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  },
+  {
+    "time": "13:35",
+    "title": "前往香港機場",
+    "subtitle": "機場快綫",
+    "traffic": "油麻地 → 中環站，走連接地下街前往香港站 → 機場快綫",
+    "note": "可先預辦登機再搭乘機場快綫",
+    "googleMap": "https://maps.app.goo.gl/NwSnfP5LqzC2VSTv5"
+  },
+  {
+    "time": "14:35",
+    "title": "香港機場",
+    "subtitle": "購物／晚餐",
+    "note": "免稅、紀念品小店、也能稍作休息；國泰航空 CX402 起飛時間 18:15–20:05",
+    "googleMap": "https://maps.app.goo.gl/zzk27e1fsXBu9RhW6"
+  }
+]

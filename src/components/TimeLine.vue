@@ -1,8 +1,8 @@
 <template>
-  <div class="py-2 px-4">
-    <h1 class="text-2xl font-bold text-yellow-600 mb-4">DAY 1｜中環 / 上環 / 尖沙咀</h1>
-    <Timeline :value="events">
-      <template #marker="slotProps">
+  <div class="py-2 px-4 bg-[transparent]">
+    <h1 class="text-2xl font-bold text-yellow-600 mb-4">{{ props.title }}</h1>
+    <Timeline :value="props.event">
+      <!-- <template #marker="slotProps">
         <span
           :class="[
             'flex w-8 h-8 items-center justify-center rounded-full text-white text-lg shadow-md z-10',
@@ -11,30 +11,37 @@
         >
           {{ slotProps.item.icon }}
         </span>
-      </template>
+      </template> -->
 
       <template #content="slotProps">
         <div
+          class="flex flex-col mb-5 p-3 border-gray-300"
           :class="[
-            'flex flex-col mb-5 bg-white rounded-md shadow-sm p-3 transition-all',
-            slotProps.item.icon === '🦶' ? 'bg-gray-50 border-l-4 border-gray-300' : '',
+            slotProps.item.type != 'step'
+              ? 'border-l-4  bg-white rounded-md shadow-sm transition-all'
+              : 'border-l-2 border-dashed',
           ]"
         >
           <!-- 時間 -->
           <div
-            class="text-sm text-gray-500"
+            class="font-bold text-[#ED3500]"
             v-if="slotProps.item.time && slotProps.item.time.trim() !== ''"
           >
-            {{ slotProps.item.time }}
+            <Tag
+              icon="pi pi-clock"
+              severity="warn"
+              :value="slotProps.item.time"
+              class="text-xs"
+            ></Tag>
           </div>
 
           <!-- 標題 -->
-          <h2 class="text-lg font-bold mt-1">
+          <h2 class="text-lg font-bold mt-1 text-[#212121]">
             {{ slotProps.item.title }}
           </h2>
 
           <!-- 副標題 -->
-          <div v-if="slotProps.item.subtitle" class="text-sm text-gray-600 mt-1">
+          <div v-if="slotProps.item.subtitle" class="text-sm text-[#616161] mt-1">
             {{ slotProps.item.subtitle }}
           </div>
 
@@ -66,10 +73,14 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import day1_events from "../assets/day1_events.json";
-
-const events = ref(day1_events);
+const props = defineProps({
+  title: {
+    type: String,
+  },
+  event: {
+    type: Object,
+  },
+});
 
 const getMarkerColor = (icon) => {
   switch (icon) {

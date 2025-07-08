@@ -24,7 +24,8 @@
           class="w-16 md:w-20 mb-2 drop-shadow-lg"
         />
         <h1 class="text-2xl md:text-3xl font-bold drop-shadow">Hong Kong 4-Day Trip</h1>
-        <p class="text-sm md:text-base opacity-90">中環 / 上環 / 尖沙咀</p>
+        <p class="text-sm md:text-base opacity-90">2025.07.17 ~ 2025.07.20</p>
+        <p class="text-sm md:text-base opacity-90">內容: 小劉 | 網站: 小蘇</p>
       </div>
     </div>
 
@@ -34,18 +35,33 @@
         <Tab value="1">Day 2</Tab>
         <Tab value="2">Day 3</Tab>
         <Tab value="3">Day 4</Tab>
+        <Tab value="4">海洋公園設施</Tab>
       </TabList>
-      <TabPanels>
+      <TabPanels class="bg-[transparent]">
         <TabPanel value="0">
           <div class="flex justify-start">
-            <Day_1 />
+            <TimeLine title="中環 / 上環 / 尖沙咀" :event="day1_events" />
           </div>
         </TabPanel>
         <TabPanel value="1">
-          <p class="m-0">Day2</p>
+          <div class="flex justify-start">
+            <TimeLine title="海洋公園 / 灣仔" :event="day2_events" />
+          </div>
         </TabPanel>
         <TabPanel value="2">
-          <p class="m-0">Day3</p>
+          <div class="flex justify-start">
+            <TimeLine title="赤柱 / 旺角" :event="day3_events" />
+          </div>
+        </TabPanel>
+        <TabPanel value="3">
+          <div class="flex justify-start">
+            <TimeLine title="尖沙咀" :event="day4_events" />
+          </div>
+        </TabPanel>
+        <TabPanel value="4">
+          <div class="flex justify-start">
+            <Image :src="imageUrl" alt="Image" width="250" preview />
+          </div>
         </TabPanel>
       </TabPanels>
     </Tabs>
@@ -59,6 +75,13 @@ import TabList from "primevue/tablist";
 import Tab from "primevue/tab";
 import TabPanels from "primevue/tabpanels";
 import TabPanel from "primevue/tabpanel";
+import Image from "primevue/image";
 
-import Day_1 from "../components/Day_1.vue";
+import day1_events from "@/assets/day1_events.json";
+import day2_events from "@/assets/day2_events.json";
+import day3_events from "@/assets/day3_events.json";
+import day4_events from "@/assets/day4_events.json";
+import imageUrl from "@/assets/day2_1.png";
+
+import TimeLine from "@/components/TimeLine.vue";
 </script>

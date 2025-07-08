@@ -1,0 +1,101 @@
+[
+  {
+    "time": "08:10",
+    "title": "飯店集合",
+    "subtitle": "救世軍卜維廉賓館",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  },
+  {
+    "time": "08:20",
+    "title": "澳洲牛奶公司",
+    "subtitle": "早餐",
+    "traffic": "油麻地 → 佐敦下車步行前往",
+    "recommend": "燉奶、炒蛋多士",
+    "googleMap": "https://maps.app.goo.gl/fR3x2RQmWUP3WEuC7"
+  },
+  {
+    "time": "09:45",
+    "title": "淺水灣",
+    "subtitle": "景點",
+    "traffic": "佐敦 → 金鐘，轉南港島線至海洋公園，轉乘 973 巴士",
+    "note": "景觀優美、環境翠綠、富豪集中地",
+    "googleMap": "https://maps.app.goo.gl/fdjZx4uF1TSbS5RX6"
+  },
+  {
+    "time": "10:55",
+    "title": "赤柱市集",
+    "subtitle": "景點",
+    "traffic": "搭乘 40X/52/40 巴士經淺水灣海灘、赤柱村道抵達",
+    "note": "環境優美，富豪集中地，附近景點：赤柱廣場、赤柱海濱長廊",
+    "recommend": "Bakehouse、Beef & Liberty、Waffelman、Pane e Latte",
+    "googleMap": "https://maps.app.goo.gl/sQCSuXKMG9w58rGEA"
+  },
+  {
+    "time": "13:20",
+    "title": "義順牛奶公司",
+    "subtitle": "下午茶",
+    "traffic": "搭乘 40X 巴士 → 赤柱村道 → 銅鑼灣 → 置地廣場下車步行約 5 分鐘",
+    "recommend": "雙皮奶、奧門豬扒包",
+    "googleMap": "https://maps.app.goo.gl/mPUpQpK3gs1YEmou6"
+  },
+  {
+    "time": "14:15",
+    "title": "兆成行",
+    "subtitle": "購物",
+    "traffic": "銅鑼灣 → 上環，步行約 5 分鐘",
+    "note": "調香 DIY、僅收現金",
+    "googleMap": "https://maps.app.goo.gl/SoT74pzA3KcfTiqBA"
+  },
+  {
+    "time": "15:00",
+    "title": "文武廟",
+    "subtitle": "景點",
+    "traffic": "兆成行步行 5 分鐘",
+    "note": "香港香火鼎盛 TOP1 廟宇",
+    "googleMap": "https://maps.app.goo.gl/xZGvoh3LcvkDCk5J6"
+  },
+  {
+    "time": "15:55",
+    "title": "嘉多娜麵包店 / AM.PM / WJ / 通達食店",
+    "subtitle": "下午茶",
+    "traffic": "上環 → 中環 → 油麻地（A2 出口），步行約 2 分鐘",
+    "recommend": "嘉多娜：布甸麵包、開心果泡芙；AM.PM：炎爆布丁口味；通達食店：魚蛋",
+    "googleMap": "https://maps.app.goo.gl/rwSP3MvYhUazWvHV9"
+  },
+  {
+    "time": "16:31",
+    "title": "回飯店休息",
+    "subtitle": "救世軍卜維廉賓館",
+    "note": "我是老人，需要休息",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  },
+  {
+    "time": "18:05",
+    "title": "點心到",
+    "subtitle": "晚餐",
+    "traffic": "從飯店步行 1 分鐘抵達",
+    "recommend": "燒賣、蝦餃",
+    "googleMap": "https://maps.app.goo.gl/VQmpC6EmPtpgbrF97"
+  },
+  {
+    "time": "19:15",
+    "title": "旺角購物",
+    "subtitle": "逛街",
+    "note": "女人街、鞋店、萬寧、惠康、卡樂B熱浪薯片、專門理髮廳、鹿片等",
+    "googleMap": "https://maps.app.goo.gl/Dcik58KuXEMMDHUFA"
+  },
+  {
+    "time": "延爽時間",
+    "title": "回飯店",
+    "subtitle": "救世軍卜維廉賓館",
+    "traffic": "搭乘巴士至彌敦道加士居道下車，步行 1 分鐘抵達 / 從旺角街市走回飯店約 10 分鐘",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  },
+  {
+    "time": "22:15",
+    "title": "麥文記麵家",
+    "subtitle": "宵夜",
+    "recommend": "全蝦雲吞、牛腩撈麵",
+    "googleMap": "https://maps.app.goo.gl/JnGjxsfuvjJp5y6L8"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "time": "08:30",
+    "title": "飯店集合",
+    "subtitle": "救世軍卜維廉賓館",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  },
+  {
+    "time": "08:45",
+    "title": "妹記生滾粥品",
+    "subtitle": "早餐",
+    "traffic": "油麻地 → 旺角（B2出口），步行約 4 分鐘抵達",
+    "recommend": "炸兩、粥葉牛肉腸粉、牛/魚生粥",
+    "googleMap": "https://maps.app.goo.gl/M5oEEPKWdPMXbMgT6"
+  },
+  {
+    "time": "10:00–19:00",
+    "title": "香港海洋公園",
+    "subtitle": "景點",
+    "traffic": "旺角 → 金鐘，轉南港島線至海洋公園站",
+    "googleMap": "https://maps.app.goo.gl/4mq3kjKVwcCD6hUB8"
+  },
+  {
+    "time": "19:10",
+    "title": "華姐清湯腩",
+    "subtitle": "晚餐",
+    "traffic": "海洋公園 → 金鐘，轉港島線至天后站（A2出口）",
+    "recommend": "清湯牛腩麵、蘿蔔",
+    "googleMap": "https://maps.app.goo.gl/kLaMZsEzF9Qt8yaFA"
+  },
+  {
+    "time": "20:15",
+    "title": "灣仔渡輪碼頭",
+    "subtitle": "景點",
+    "traffic": "天后 → 灣仔站，步行約 12 分鐘抵達",
+    "note": "搭乘百年歷史天星小輪到尖沙咀",
+    "googleMap": "https://maps.app.goo.gl/XxM3CRDA8Wm29eRXA"
+  },
+  {
+    "time": "20:27",
+    "title": "回飯店",
+    "subtitle": "救世軍卜維廉賓館",
+    "traffic": "尖沙咀碼頭搭乘巴士（1A / 1 / 6 / 234X）",
+    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+  }
+]
