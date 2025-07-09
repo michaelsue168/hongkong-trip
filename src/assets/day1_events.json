@@ -1,180 +1,192 @@
 [
   {
     "time": "05:00",
-    "icon": "📍",
     "title": "集合",
     "subtitle": "桃園機場第一航廈",
     "googleMap": ""
   },
   {
     "time": "08:00 - 10:05",
-    "icon": "✈️",
     "title": "CX407 國泰航空",
     "subtitle": "飛機餐早餐 (1.5 hr)",
     "googleMap": ""
   },
   {
     "time": "11:35",
-    "icon": "🏨",
     "title": "救世軍卜維廉賓館",
     "subtitle": "飯店放行李 (10 min)",
-    "traffic": "機場快線 → 香港轉荃灣線至 <b class='text-red-400'>油麻地站</b>（C出口）",
-    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5"
+    "traffic": "<b class='bg-[#00878e] text-[#ffffff] rounded-full px-2 py-1 '>香港</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>油麻地站 (C出口)</b>",
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5",
+    "help":"<b class='text-[#00878e]'>機場快線</b> | <b class='text-[#e50011]'>荃灣線</b>"
   },
   {
-    "icon": "🦶",
     "type": "step",
     "title": "步行 10 分鐘"
   },
   {
     "time": "11:55 (1hr)",
-    "icon": "🍱",
     "title": "陳記燒臘飯店",
     "traffic": "飯店步行 10 分鐘抵達",
-    "recommend": "燒鴨、脆皮叉燒、燒鵝、燒腩",
+    "recommend": "燒鴨、脆皮叉燒、燒鴨、燒臘",
     "googleMap": "https://maps.app.goo.gl/wCx6QCX9oRXfqR8K9"
   },
   {
-    "icon": "🦶",
     "type": "step",
-    "title": "步行 7 分鐘"
+    "title": "7 分鐘"
   },
   {
     "time": "13:02 (30min)",
-    "icon": "🛍️",
     "title": "巧佳小巴用品",
-    "traffic": "搭 <b class='text-red-400'>3</b>, 上海街 388 號外 - 上海街;近恒福大廈下車步行2MIN抵達",
+    "traffic": "搭 <b class='text-red-600'>3</b>, 上海街 388 號外 - 上海街 ; 近恒福大廈下車步行2分鐘抵達",
     "note": "挖寶復古玩具、港風特色公仔 & 冰箱貼",
     "googleMap": "https://maps.app.goo.gl/EB83W2UUUsEi1g9m9"
   },
   {
-    "time": "14:26 (20min)",
-    "icon": "🛍️",
-    "title": "鴻興玩具",
-    "traffic": "步行 6 分鐘",
-    "note": "附近有 THE ROLL 蛋捲，可順道購買手禮",
-    "googleMap": "https://www.google.com/maps/search/?api=1&query=鴻興玩具+灣仔太源街"
+    "type": "step",
+    "title": "搭車步行 22 分鐘"
   },
   {
-    "time": "",
-    "icon": "🍳",
-    "title": "THE ROLL 蛋捲樂園",
-    "subtitle": "灣仔皇后大道東 168 號",
-    "note": "手工蛋捲伴手禮",
-    "googleMap": "https://www.google.com/maps?q=168+Queen's+Road+East,+Wan+Chai"
+    "time": "14:26 (20min)",
+    "title": "鴻興玩具",
+    "traffic": "<b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>佐敦站</b> → <b class='bg-[#0074c1] text-[#ffffff] rounded-full px-2 py-1 '>金鐘站</b> → <b class='bg-[#0074c1] text-[#ffffff] rounded-full px-2 py-1 '>灣仔站</b>",
+    "note": "附近有 THE ROLL 蛋捲，可順道購買手禮",
+    "googleMap": "https://www.google.com/maps/search/?api=1&query=鴻興玩具+灣仔太源街",
+    "help":"<b class='text-[#e50011]'>荃灣線</b> | <b class='text-[#0074c1]'>港島線</b>"
+  },
+  {
+    "type": "step",
+    "title": "步行 2 分鐘"
   },
   {
     "time": "14:48 (30min)",
-    "icon": "🍹",
-    "title": "SNACK - 我杯茶",
+    "title": "我杯茶",
     "recommend": "奶茶、三明治類、西多士",
-    "note": "步行 2 分鐘抵達",
-    "googleMap": "https://maps.app.goo.gl/tKhGXkqEDnrmUWeN9"
+    "googleMap": "https://maps.app.goo.gl/iaiHSuAXfheLSiDy8"
   },
   {
-    "icon": "🦶",
+    "time": "",
+    "title": "THE ROLL 蛋捲樂園",
+    "subtitle": "灣仔皇后大道東 168 號 (步行 4 分鐘)",
+    "note": "手工蛋捲伴手禮",
+    "googleMap": "https://maps.app.goo.gl/JvjyYxhxjTfofuoz9"
+  },
+  {
     "type": "step",
     "title": "步行 2 分鐘"
   },
   {
     "time": "15:20 (15min)",
-    "icon": "🚌",
-    "title": "EXPERIENCE - 叮叮車體驗",
-    "traffic": "步行至柯布連道上，機利文街下",
-    "note": "百年歷史香港特色交通工具",
-    "googleMap": "https://maps.app.goo.gl/M7UmAoPoESKEMHrr9"
+    "title": "叮叮車體驗",
+    "traffic": "步行至<b class='text-red-600'>柯布連道上</b>，<b class='text-red-600'>機利文街</b>下",
+    "note": "百年歷史香港特色交通工具"
   },
   {
-    "icon": "🦶",
     "type": "step",
     "title": "步行 2 分鐘"
   },
   {
     "time": "15:37",
-    "icon": "🏞️",
-    "title": "TOURIST SPOT - 中環半山手扶梯",
+    "title": "中環半山手扶梯",
     "note": "最長戶外手扶梯",
-    "googleMap": "https://maps.app.goo.gl/FhH9HxvLxowjY7qH8"
+    "googleMap": "https://maps.app.goo.gl/a28KAqrWEk4PhudP7"
   },
   {
-    "icon": "🦶",
     "type": "step",
-    "title": "步行 6 分鐘"
+    "title": "6 分鐘"
   },
   {
     "time": "15:43 (30min)",
-    "icon": "🏛️",
-    "title": "TOURIST SPOT - 大館",
-    "traffic": "搭乘中環半山手扶梯至頂端後步行到達",
+    "title": "大館",
+    "traffic": "搭乘<b class='text-red-600'>中環半山手扶梯</b>至頂端後步行到達",
     "note": "香港舊監獄，許多古蹟街景可拍照",
-    "googleMap": "https://maps.app.goo.gl/Bqk4jUQUY84RE8Uz7"
+    "googleMap": "https://maps.app.goo.gl/NXtJCVTr2kChe1rJ7"
   },
   {
-    "icon": "🦶",
     "type": "step",
     "title": "步行 4 分鐘"
   },
   {
     "time": "16:17 (20min)",
-    "icon": "🧁",
-    "title": "SNACK - Vission Bakery",
+    "title": "Vission Bakery",
     "recommend": "開心果、抹茶蛋糕",
     "note": "不收現金，僅刷卡",
-    "googleMap": "https://maps.app.goo.gl/Et9BP9Z6mRwfwXZ9A"
+    "googleMap": "https://maps.app.goo.gl/TkyQXvhbVNCV8C71A"
   },
   {
-    "icon": "🦶",
     "type": "step",
     "title": "步行 3 分鐘"
   },
   {
     "time": "16:40 (40min)",
-    "icon": "🥤",
     "title": "DRINKS/SNACK",
     "subtitle": "林里手打檸檬茶 / 蘭芳園 / 泰昌餅家 / 祥興記上海生煎包",
     "recommend": "檸檬茶、絲襪奶茶、鹹檸七、蛋塔、鮮蝦、招牌",
-    "googleMap": "https://maps.app.goo.gl/hCu6pKFGmR7D5eP36"
+    "googleMap": "https://maps.app.goo.gl/YiRYPDsDn6Vr4eA2A"
   },
   {
-    "icon": "🦶",
     "type": "step",
     "title": "步行 2 分鐘"
   },
   {
     "time": "17:22 (10min)",
-    "icon": "🏞️",
-    "title": "TOURIST SPOT - 石板街",
+    "title": "石板街",
     "note": "很多觀光客來這拍照",
-    "googleMap": "https://maps.app.goo.gl/kpCRiQFbqgHjzTZZ6"
+    "googleMap": "https://maps.app.goo.gl/rHQwfEpqoFFa5jJX8"
   },
   {
-    "icon": "🦶",
     "type": "step",
     "title": "步行 4 分鐘"
   },
   {
     "time": "17:36 (30min)",
-    "icon": "🛍️",
-    "title": "SHOPPING - 中環街市",
+    "title": "中環街市",
     "note": "景點特色：2F SLOWOOD",
-    "googleMap": "https://maps.app.goo.gl/tggoMiAxctKzFWcH8"
+    "googleMap": "https://maps.app.goo.gl/eN14Z6SWiBC7nTz67"
   },
   {
-    "icon": "🦶",
     "type": "step",
-    "title": "步行 14 分鐘"
+    "title": "14 分鐘"
   },
   {
     "time": "約18:20 到達排隊，19:00 發車",
-    "icon": "🚌",
-    "title": "EXPERIENCE - 落日飛車體驗",
-    "traffic": "觀光城巴總站上 → 尖東站（梳士巴利道）下",
+    "title": "落日飛車體驗",
+    "traffic": "<b class='text-red-600'>觀光城巴總站</b>上 → <b class='text-red-600'>天星碼頭,尖沙咀</b>下",
     "note": "搭車賞香港夜景",
-    "googleMap": "https://maps.app.goo.gl/V9GRM1A9GfAyV6WW6"
+    "googleMap": "https://maps.app.goo.gl/j4Pp8u3LEnbL179g7"
   },
   {
-    "icon": "🦶",
     "type": "step",
-    "title": "步行 2 分鐘"
+    "title": "步行 5 分鐘"
+  },
+  {
+    "time": "19:30 (40 min)",
+    "title": "SHAKE SHAKE",
+    "traffic": "H2K下車，步行抵達(海運大樓G樓層)",
+    "recommend": "焦糖奶昔、招牌芝士牛肉漢堡",
+    "googleMap": "https://maps.app.goo.gl/cvfW2v9FBS7EwnmM7"
+  },
+  {
+    "type": "step",
+    "title": "步行 10 分鐘"
+  },
+  {
+    "time": "20:40 (30 min)",
+    "title": "海運觀點(海運大廈)",
+    "traffic": "步行前往",
+    "note": "270° 維多利亞港夜景",
+    "googleMap": "https://maps.app.goo.gl/cSBDNedR7QQYfeU28"
+  },
+  {
+    "type": "step",
+    "title": "20 分鐘"
+  },
+  {
+    "time": "21:30",
+    "title": "救世軍卜維廉賓館",
+    "traffic": "巴士：步行往<b class='text-red-600'>九龍公園徑</b>，搭<b class='text-red-600'>20A</b>至<b class='text-red-600'>文明里彌敦道</b>下<br/>🚇 港鐵：<b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>尖沙咀站</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>油麻地站 (C出口)</b>",
+    "note": "搭車賞香港夜景",
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5",
+    "help":"<b class='text-[#e50011]'>荃灣線</b>"
   }
+
 ]

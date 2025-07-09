@@ -50,7 +50,8 @@
 
           <!-- 交通說明 -->
           <div v-if="slotProps.item.traffic" class="text-sm mt-2">
-            🚇 <span v-html="slotProps.item.traffic"></span>
+            🚇
+            <span v-html="slotProps.item.traffic"></span>
           </div>
 
           <!-- 推薦品項 -->
@@ -60,14 +61,18 @@
 
           <!-- 額外提醒 -->
           <div v-if="slotProps.item.note" class="text-sm mt-2 text-pink-600">
-            💡 {{ slotProps.item.note }}
+            💡
+            <span v-html="slotProps.item.note"></span>
           </div>
 
           <!-- Google Map 連結按鈕 -->
-          <div v-if="slotProps.item.googleMap" class="mt-2">
+          <div v-if="slotProps.item.googleMap" class="mt-2 flex justify-between items-baseline">
             <a :href="slotProps.item.googleMap" target="_blank" class="text-sm text-blue-600">
               👉 查看地圖
             </a>
+            <div>
+              <span class="text-sm" v-html="slotProps.item.help"></span>
+            </div>
           </div>
         </div>
       </template>
@@ -102,11 +107,11 @@ const getMarkerColor = (icon) => {
     case "🍳":
       return "bg-yellow-500";
     case "🥤":
-      return "bg-lime-500"; // 新增 飲料點心
+      return "bg-lime-500";
     case "🏞️":
-      return "bg-emerald-500"; // 新增 景點/拍照點
+      return "bg-emerald-500";
     case "🚌":
-      return "bg-blue-600"; // 新增 體驗/交通
+      return "bg-blue-600";
     default:
       return "bg-gray-400";
   }

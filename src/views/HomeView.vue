@@ -29,21 +29,21 @@
       </div>
     </div>
 
-    <Tabs value="0">
+    <Tabs v-model:value="activeTab">
       <TabList>
-        <Tab value="0">Day 1</Tab>
-        <Tab value="1">Day 2</Tab>
-        <Tab value="2">Day 3</Tab>
-        <Tab value="3">Day 4</Tab>
+        <Tab value="1">Day 1</Tab>
+        <Tab value="2">Day 2</Tab>
+        <Tab value="3">Day 3</Tab>
+        <Tab value="4">Day 4</Tab>
         <!-- <Tab value="4">海洋公園設施</Tab> -->
       </TabList>
       <TabPanels class="bg-[transparent]">
-        <TabPanel value="0">
+        <TabPanel value="1">
           <div class="flex flex-col justify-start">
             <TimeLine title="中環 / 上環 / 尖沙咀" :event="day1_events" />
           </div>
         </TabPanel>
-        <TabPanel value="1">
+        <TabPanel value="2">
           <div class="flex flex-col justify-start">
             <TimeLine title="海洋公園 / 灣仔" :event="day2_events" />
             <div class="flex flex-col items-center">
@@ -55,12 +55,12 @@
             </div>
           </div>
         </TabPanel>
-        <TabPanel value="2">
+        <TabPanel value="3">
           <div class="flex flex-col justify-start">
             <TimeLine title="赤柱 / 旺角" :event="day3_events" />
           </div>
         </TabPanel>
-        <TabPanel value="3">
+        <TabPanel value="4">
           <div class="flex flex-col justify-start">
             <TimeLine title="尖沙咀" :event="day4_events" />
           </div>
@@ -77,6 +77,9 @@
 </template>
 
 <script setup>
+import { onMounted, ref, watch } from "vue";
+import { useRoute, useRouter } from "vue-router";
+
 import Tabs from "primevue/tabs";
 import TabList from "primevue/tablist";
 import Tab from "primevue/tab";
@@ -92,4 +95,21 @@ import image_1 from "@/assets/day2_1.png";
 import image_2 from "@/assets/day2_2.png";
 
 import TimeLine from "@/components/TimeLine.vue";
+
+const route = useRoute();
+const router = useRouter();
+const activeTab = ref("1");
+
+// 初始化：從網址讀取 ?day=1~3 決定預設 tab
+onMounted(() => {
+  const day = route.query.day;
+  if (["1", "2", "3", "4"].includes(day)) {
+    activeTab.value = day;
+  }
+});
+
+// 監聽 activeTab，更新 URL
+watch(activeTab, (newVal) => {
+  router.replace({ query: { ...route.query, day: newVal } });
+});
 </script>

@@ -3,45 +3,71 @@
     "time": "09:00",
     "title": "飯店集合",
     "subtitle": "救世軍卜維廉賓館",
-    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5"
   },
   {
-    "time": "09:05",
+    "type": "step",
+    "title": "步行 5 分鐘"
+  },
+  {
+    "time": "09:05 (40 min)",
     "title": "紅茶冰室",
     "subtitle": "早餐",
     "traffic": "飯店步行 5 分鐘",
     "recommend": "冰火菠蘿油、招牌芝士流心西多士、豬扒包、香脆奶油豬、沙嗲牛肉麵",
-    "googleMap": "https://maps.app.goo.gl/YKLxoDywvovezm4BA"
+    "googleMap": "https://maps.app.goo.gl/Y5a6y65YDG8ZXBTY8"
   },
   {
-    "time": "09:55",
+    "type": "step",
+    "title": "10 分鐘"
+  },
+  {
+    "time": "09:55 (3 hr)",
     "title": "尖沙咀購物",
     "subtitle": "購物",
-    "traffic": "搭 41A / 35A / 81C / 87D 公車，油麻地 → 永星里 → 聖安德烈堂",
-    "note": "無印良品、美麗華廣場、The One 公仔、Bakehouse、珍妮曲奇、美麗都大廈、K11/人文藝術館、星光大道等",
-    "googleMap": "https://maps.app.goo.gl/8CVBQ9qKAgTSYYnr5"
+    "traffic": "搭<b class='text-red-600'>41A / 35A / 81C / 87D</b>，<b class='text-red-600'>油麻地永星里 - 聖安德烈堂</b>",
+    "note": "由北向南逛:<br/>💡 無印良品：美麗華廣場B103-B115(巧克力)<br/>💡 The One：玩具站L305-L306(公仔/盲盒)<br/>💡 Hashtag B：開心果蛋撻<br/>💡 Bakehouse：蛋撻(What’s app 預訂)<br/>💡 榮光手工創意曲奇<br/>💡 珍妮曲奇聰明小熊：美麗都大廈1F42號鋪(曲奇)<br/>💡 K11人文購物藝術館：漂亮建築，逛逛吃午餐<br/>💡 星光大道：找藝人手掌印",
+    "googleMap": "https://maps.app.goo.gl/PtZPx1jbUX6HercJ9"
+  },
+  {
+    "type": "step",
+    "title": "20 分鐘"
   },
   {
     "time": "13:10",
     "title": "回飯店拿行李",
     "subtitle": "救世軍卜維廉賓館",
-    "traffic": "搭 87D / 41A / 9 / 35A 公車 → 尖東鐵路站 → 彌敦道 → 飯店，步行約 3 分鐘",
+    "traffic": "搭<b class='text-red-600'>87D / 41A / 9 / 35A</b>尖東鐵路站-彌敦道;九龍政府合署外，步行 3 min",
     "note": "拿行李，準備前往機場",
-    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5"
   },
   {
-    "time": "13:35",
+    "type": "step",
+    "title": "15 分鐘"
+  },
+  {
+    "time": "13:35 (1hr)",
     "title": "前往香港機場",
     "subtitle": "機場快綫",
-    "traffic": "油麻地 → 中環站，走連接地下街前往香港站 → 機場快綫",
-    "note": "可先預辦登機再搭乘機場快綫",
-    "googleMap": "https://maps.app.goo.gl/NwSnfP5LqzC2VSTv5"
+    "traffic": "<b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>油麻地站</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>中環站</b> → 連接地下街 → <b class='bg-[#00878e] text-[#ffffff] rounded-full px-2 py-1 '>香港</b> → <b class='bg-[#00878e] text-[#ffffff] rounded-full px-2 py-1 '>機場</b>",
+    "note": "可以先預辦登機再去搭機場快線",
+    "googleMap": "https://maps.app.goo.gl/JomMgMdH6Fiazaux9",
+    "help":"<b class='text-[#e50011]'>荃灣線</b> | <b class='text-[#00878e]'>機場快線</b>"
   },
   {
-    "time": "14:35",
+    "time": "14:35 (逛到登機)",
     "title": "香港機場",
-    "subtitle": "購物／晚餐",
-    "note": "免稅、紀念品小店、也能稍作休息；國泰航空 CX402 起飛時間 18:15–20:05",
-    "googleMap": "https://maps.app.goo.gl/zzk27e1fsXBu9RhW6"
+    "note": "逛免稅、紀念品小店、也能稍作休息",
+    "googleMap": "https://maps.app.goo.gl/rnSVgVEqpb68h4tM9"
+  },
+  {
+    "time": "18:15-20:05",
+    "title": "CX402 國泰航空",
+    "subtitle": "飛機餐晚餐 (1.5 hr)",
+    "googleMap": ""
+  },
+  {
+    "type": "step",
+    "title": "開開心心出門，平平安安回家"
   }
 ]

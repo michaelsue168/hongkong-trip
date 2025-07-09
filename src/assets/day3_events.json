@@ -3,71 +3,111 @@
     "time": "08:10",
     "title": "飯店集合",
     "subtitle": "救世軍卜維廉賓館",
-    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5"
   },
   {
-    "time": "08:20",
+    "type": "step",
+    "title": "10 分鐘"
+  },
+  {
+    "time": "08:20 (40 min)",
     "title": "澳洲牛奶公司",
     "subtitle": "早餐",
-    "traffic": "油麻地 → 佐敦下車步行前往",
+    "traffic": "<b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>油麻地站</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>佐敦站</b>",
     "recommend": "燉奶、炒蛋多士",
-    "googleMap": "https://maps.app.goo.gl/fR3x2RQmWUP3WEuC7"
+    "googleMap": "https://maps.app.goo.gl/mZgVzUK9PMbNwNie7",
+    "help":"<b class='text-[#e50011]'>荃灣線</b>"
   },
   {
-    "time": "09:45",
+    "type": "step",
+    "title": "45 分鐘"
+  },
+  {
+    "time": "09:45 (45 min)",
     "title": "淺水灣",
-    "subtitle": "景點",
-    "traffic": "佐敦 → 金鐘，轉南港島線至海洋公園，轉乘 973 巴士",
+    "subtitle": "附近可逛景點：影灣園購物商場、% Arabica",
+    "traffic": "<b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>佐敦站</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>金鐘站</b> → <b class='bg-[#cbd300] text-[#000000] rounded-full px-2 py-1 '>海洋公園站</b> → <b class='text-red-600'>973巴士</b>",
     "note": "景觀優美、環境翠綠、富豪集中地",
-    "googleMap": "https://maps.app.goo.gl/fdjZx4uF1TSbS5RX6"
+    "googleMap": "https://maps.app.goo.gl/HSYvqqfG7NmALKik6",
+     "help":"<b class='text-[#e50011]'>荃灣線</b> | <b class='text-[#cbd300]'>南港島線</b>"
+
   },
   {
-    "time": "10:55",
+    "type": "step",
+    "title": "25 分鐘"
+  },
+  {
+    "time": "10:55 (1.5 hr)",
     "title": "赤柱市集",
-    "subtitle": "景點",
-    "traffic": "搭乘 40X/52/40 巴士經淺水灣海灘、赤柱村道抵達",
-    "note": "環境優美，富豪集中地，附近景點：赤柱廣場、赤柱海濱長廊",
+    "subtitle": "附近可逛景點：赤柱廣場、赤柱海濱長廊",
+    "traffic": "搭乘<b class='text-red-600'>40X/52/40</b>經<b class='text-red-600'>淺水灣海灘;淺水灣道-赤柱村;赤柱村道</b>",
     "recommend": "Bakehouse、Beef & Liberty、Waffelman、Pane e Latte",
-    "googleMap": "https://maps.app.goo.gl/sQCSuXKMG9w58rGEA"
+    "googleMap": "https://maps.app.goo.gl/EadwRV7VQ58XTNc79"
+  },
+  {
+    "type": "step",
+    "title": "55 分鐘"
   },
   {
     "time": "13:20",
     "title": "義順牛奶公司",
     "subtitle": "下午茶",
-    "traffic": "搭乘 40X 巴士 → 赤柱村道 → 銅鑼灣 → 置地廣場下車步行約 5 分鐘",
+    "traffic": "搭乘<b class='text-red-600'>40X</b> → <b class='text-red-600'>赤柱村道; 舊赤柱警署-渣甸街</b> → 步行 5 分鐘",
     "recommend": "雙皮奶、奧門豬扒包",
-    "googleMap": "https://maps.app.goo.gl/mPUpQpK3gs1YEmou6"
+    "googleMap": "https://maps.app.goo.gl/Sp5HxZqqLh9MFjHM9"
   },
   {
-    "time": "14:15",
+    "type": "step",
+    "title": "15 分鐘"
+  },
+  {
+    "time": "14:15 (40 min)",
     "title": "兆成行",
-    "subtitle": "購物",
-    "traffic": "銅鑼灣 → 上環，步行約 5 分鐘",
-    "note": "調香 DIY、僅收現金",
-    "googleMap": "https://maps.app.goo.gl/SoT74pzA3KcfTiqBA"
+    "subtitle": "調香 DIY",
+    "traffic": "<b class='bg-[#0074c1] text-[#ffffff] rounded-full px-2 py-1 '>銅鑼灣</b> → <b class='bg-[#0074c1] text-[#ffffff] rounded-full px-2 py-1 '>上環</b> → 步行 5 分鐘",
+    "note": "僅收現金, 八達通",
+    "googleMap": "https://maps.app.goo.gl/R72LVZwHsPoDh4tJ7",
+    "help":"<b class='text-[#0074c1]'>港島線</b>"
   },
   {
-    "time": "15:00",
+    "type": "step",
+    "title": "步行 5 分鐘"
+  },
+  {
+    "time": "15:00 (30 min)",
     "title": "文武廟",
     "subtitle": "景點",
     "traffic": "兆成行步行 5 分鐘",
     "note": "香港香火鼎盛 TOP1 廟宇",
-    "googleMap": "https://maps.app.goo.gl/xZGvoh3LcvkDCk5J6"
+    "googleMap": "https://maps.app.goo.gl/uAWTdStiHpeDkc1Y7"
   },
   {
-    "time": "15:55",
+    "type": "step",
+    "title": "25 分鐘"
+  },
+  {
+    "time": "15:55 (30 min)",
     "title": "嘉多娜麵包店 / AM.PM / WJ / 通達食店",
     "subtitle": "下午茶",
-    "traffic": "上環 → 中環 → 油麻地（A2 出口），步行約 2 分鐘",
-    "recommend": "嘉多娜：布甸麵包、開心果泡芙；AM.PM：炎爆布丁口味；通達食店：魚蛋",
-    "googleMap": "https://maps.app.goo.gl/rwSP3MvYhUazWvHV9"
+    "traffic": "<b class='bg-[#0074c1] text-[#ffffff] rounded-full px-2 py-1 '>上環</b> → <b class='bg-[#0074c1] text-[#ffffff] rounded-full px-2 py-1 '>中環</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>油麻地 (A2 出口)</b>，步行 2 分鐘",
+    "recommend": "嘉多娜：布甸麵包、開心果泡芙；AM.PM：炙燒布丁口味；通達食店：魚蛋",
+    "googleMap": "https://maps.app.goo.gl/pvCmtmqpJ7CrD2cA7",
+    "help":"<b class='text-[#0074c1]'>港島線</b> | <b class='text-[#e50011]'>荃灣線</b>"
   },
   {
-    "time": "16:31",
+    "type": "step",
+    "title": "步行 6 分鐘"
+  },
+  {
+    "time": "16:31 (1.5 hr)",
     "title": "回飯店休息",
     "subtitle": "救世軍卜維廉賓館",
-    "note": "我是老人，需要休息",
-    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+    "note": "我是老人，需要休息~",
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5"
+  },
+  {
+    "type": "step",
+    "title": "步行 1 分鐘"
   },
   {
     "time": "18:05",
@@ -75,27 +115,37 @@
     "subtitle": "晚餐",
     "traffic": "從飯店步行 1 分鐘抵達",
     "recommend": "燒賣、蝦餃",
-    "googleMap": "https://maps.app.goo.gl/VQmpC6EmPtpgbrF97"
+    "googleMap": "https://maps.app.goo.gl/QPE8vVyh6y9995Hw8"
   },
   {
-    "time": "19:15",
+    "type": "step",
+    "title": "步行 10 分鐘"
+  },
+  {
+    "time": "19:15~(逛爽就回)",
     "title": "旺角購物",
     "subtitle": "逛街",
-    "note": "女人街、鞋店、萬寧、惠康、卡樂B熱浪薯片、專門理髮廳、鹿片等",
-    "googleMap": "https://maps.app.goo.gl/Dcik58KuXEMMDHUFA"
+    "note": "女人街：琳琅滿目市集(要買記得殺價)<br/>💡 波鞋街：鞋款多又齊全，但沒有比較便宜<br/>💡 萬寧：黃道益活絡油<br/>💡 惠康/百佳超市： 香港大排檔港式奶茶(即溶奶茶、即融鴛鴦)、卡樂B熱浪薯片、尊玥蛋捲<br/>💡 星際城市：底片",
+    "googleMap": "https://maps.app.goo.gl/w5EirQhx1FHtrHHV7"
   },
   {
-    "time": "延爽時間",
+    "time": "",
     "title": "回飯店",
     "subtitle": "救世軍卜維廉賓館",
-    "traffic": "搭乘巴士至彌敦道加士居道下車，步行 1 分鐘抵達 / 從旺角街市走回飯店約 10 分鐘",
-    "googleMap": "https://maps.app.goo.gl/2dShysKP8jMr1CZM9"
+    "traffic": "巴士搭<b class='text-red-600'>1號線</b>至<b class='text-red-600'>油麻地永星里</b>下車，步行 1 min抵達 / 從旺角街區走回飯店約 10 min",
+    "googleMap": "https://maps.app.goo.gl/ZM9RHKxP7wGeMaMz5"
+  },
+  {
+    "type": "step",
+    "title": "10 分鐘"
   },
   {
     "time": "22:15",
     "title": "麥文記麵家",
     "subtitle": "宵夜",
+    "traffic": "<b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>油麻地站</b> → <b class='bg-[#e50011] text-[#ffffff] rounded-full px-2 py-1 '>佐敦站</b>",
     "recommend": "全蝦雲吞、牛腩撈麵",
-    "googleMap": "https://maps.app.goo.gl/JnGjxsfuvjJp5y6L8"
+    "googleMap": "https://maps.app.goo.gl/6PnHzbX9XaxVqNL27",
+    "help":"<b class='text-[#e50011]'>荃灣線</b>"
   }
 ]
