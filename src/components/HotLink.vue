@@ -25,7 +25,12 @@ const usefulLinks = [
     url: "https://maps.app.goo.gl/KRcATBTaRwCqBbAY6",
   },
   {
-    title: "行程設計 Canva",
+    title: "行程設計 Canva (v1)",
+    desc: "小劉製作の行程表)",
+    url: "https://reurl.cc/Om17e7",
+  },
+  {
+    title: "行程設計 Canva (v2海)",
     desc: "小劉製作の行程表",
     url: "https://reurl.cc/axr077",
   },
