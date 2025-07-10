@@ -25,7 +25,7 @@
         />
         <h1 class="text-2xl md:text-3xl font-bold drop-shadow">Hong Kong 4-Day Trip</h1>
         <p class="text-sm md:text-base opacity-90">2025.07.17 ~ 2025.07.20</p>
-        <p class="text-sm md:text-base opacity-90">內容: 小劉 | 網站: 小蘇</p>
+        <p class="text-sm md:text-base opacity-90">行程內容: @Gachun. | 網站建置: @Michael Su.</p>
       </div>
     </div>
 
@@ -35,6 +35,7 @@
         <Tab value="2">Day 2</Tab>
         <Tab value="3">Day 3</Tab>
         <Tab value="4">Day 4</Tab>
+        <Tab value="5">link</Tab>
         <!-- <Tab value="4">海洋公園設施</Tab> -->
       </TabList>
       <TabPanels class="bg-[transparent]">
@@ -65,11 +66,9 @@
             <TimeLine title="尖沙咀" :event="day4_events" />
           </div>
         </TabPanel>
-        <!-- <TabPanel value="4">
-          <div class="flex justify-start">
-            <Image :src="imageUrl" alt="Image" width="250" preview />
-          </div>
-        </TabPanel> -->
+        <TabPanel value="5">
+          <HotLink />
+        </TabPanel>
       </TabPanels>
     </Tabs>
     <ScrollTop />
@@ -95,6 +94,7 @@ import image_1 from "@/assets/day2_1.png";
 import image_2 from "@/assets/day2_2.png";
 
 import TimeLine from "@/components/TimeLine.vue";
+import HotLink from "@/components/HotLink.vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -102,14 +102,14 @@ const activeTab = ref("1");
 
 // 初始化：從網址讀取 ?day=1~3 決定預設 tab
 onMounted(() => {
-  const day = route.query.day;
-  if (["1", "2", "3", "4"].includes(day)) {
-    activeTab.value = day;
+  const tab = route.query.tab;
+  if (["1", "2", "3", "4", "5"].includes(tab)) {
+    activeTab.value = tab;
   }
 });
 
 // 監聽 activeTab，更新 URL
 watch(activeTab, (newVal) => {
-  router.replace({ query: { ...route.query, day: newVal } });
+  router.replace({ query: { ...route.query, tab: newVal } });
 });
 </script>
